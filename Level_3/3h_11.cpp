@@ -2,13 +2,13 @@
 using namespace std;
 
 int main3h11() {
-	cout << "½ÃÀÛ" << endl;
+	cout << "ï¿½ï¿½ï¿½ï¿½" << endl;
 
 	for (int i = 1; i <= 5; i++) {
 		cout << i;
 	}
 	cout << endl;
-	cout << "Á¾·á" << endl;
+	cout << "ï¿½ï¿½ï¿½ï¿½" << endl;
 
 
 	return 0;

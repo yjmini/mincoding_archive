@@ -8,7 +8,7 @@ int main314() {
 	for (int i = a; i >= 0; i--) {
 		cout << i << endl;
 		if (i == 0) {
-			cout << "¹ß»ç" << endl;
+			cout << "ï¿½ß»ï¿½" << endl;
 		}
 	}
 	return 0;

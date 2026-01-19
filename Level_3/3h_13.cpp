@@ -3,7 +3,7 @@ using namespace std;
 
 int main3h13() {
 	for (int i = 1; i <= 5; i++) {
-		cout << i << "¹øgo!!" << endl;
+		cout << i << "ï¿½ï¿½go!!" << endl;
 	}
 
 	return 0;
