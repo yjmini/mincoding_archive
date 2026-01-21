@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 int main702() {
@@ -13,11 +13,11 @@ int main702() {
 	}
 
 	if ((a - b) % 2 == 0) {
-		cout << "Â¦»ç¶û¸¸";
+		cout << "ì§ì‚¬ëž‘ë§Œ";
 	}
 	else
 	{
-		cout << "°í¹éÇÑ´Ù";
+		cout << "ê³ ë°±í•œë‹¤";
 	}
 
 	return 0;
