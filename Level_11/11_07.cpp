@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main1107() {
+	int arr[7];
+	
+
+	for (int i = 0; i < 7; i++)
+	{
+		cin >> arr[i];
+	}
+
+	int max = arr[0];
+	int min = arr[0];
+
+	for (int i = 1; i < 7; i++)
+	{
+		if (max <= arr[i]) {
+			max = arr[i];
+		}
+		if (min >= arr[i]) {
+			min = arr[i];
+		}
+	}
+
+	cout << "MAX=" << max << endl << "MIN=" << min;
+
+	return 0;
+}
