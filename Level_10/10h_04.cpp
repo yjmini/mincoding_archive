@@ -12,13 +12,14 @@ int main10004() {
 		for (int j = 0; j < 5; j++)
 		{
 			if (arr[i][j] == ch) {
-				cout << "ÀÖÀ½";
+				cout << "ìžˆìŒ";
 				return 0;
 			}
 		}
 	}
 
-	cout << "¾øÀ½";
+	cout << "ì—†ìŒ";
 
 	return 0;
+
 }
