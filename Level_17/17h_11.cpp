@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-int main1711() {
+int main17011() {
 	int arr[4] = { 3,5,4,2 };
 	int mask[4];
 	int sum = 0;

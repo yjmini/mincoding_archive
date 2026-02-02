@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-int main1712() {
+int main17012() {
 	char arr[5][6] = {
 		"ABCDE",
 		"FGHIJ",
