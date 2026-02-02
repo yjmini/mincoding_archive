@@ -2,29 +2,53 @@
 using namespace std;
 
 int main1708() {
-	char vect[7] = { "BTKIGZ" };
-	char target[4];
-
-	for (int i = 0; i < 4; i++)
+	int map[2][3] = {
+		3, 55, 42,
+		-5, -9, -10
+	};
+	int pix[2][2];
+	for (int i = 0; i < 2; i++)
 	{
-		cin >> target[i];
+		for (int j = 0; j < 2; j++)
+		{
+			cin >> pix[i][j];
+		}
 	}
 
-	int cnt = 0;
+	int arr[2][2] = { 0 };
 
-	for (int i = 0; i < 4; i++)
+	for (int i = 0; i < 2; i++)
 	{
-		for (int j = 0; j < 7; j++)
+		for (int j = 0; j < 3; j++)
 		{
-			if (target[i] == vect[j])
+			for (int k = 0; k < 2; k++)
 			{
-				cnt++;
-				break;
+				for (int l = 0; l < 2; l++)
+				{
+					if (map[i][j] == pix[k][l])
+					{
+						arr[k][l] = 1;
+					}
+				}
 			}
 		}
 	}
 
-	cout << cnt;
+	for (int i = 0; i < 2; i++)
+	{
+		for (int j = 0; j < 2; j++)
+		{
+			if (arr[i][j] == 1)
+			{
+				cout << "Y ";
+			}
+			else
+			{
+				cout << "N ";
+			}
+		}
+		cout << endl;
+	}
 
 	return 0;
 }
