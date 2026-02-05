@@ -1,0 +1,35 @@
+﻿#include <iostream>
+#include <algorithm>
+#include <vector>
+using namespace std;
+
+int dy[4] = { -1, 1, 0, 0 };
+int dx[4] = { 0, 0, -1, 1 };
+
+int main1901()
+{
+	int arr[3][3] = {
+		3,5,4,
+		1,1,2,
+		1,3,9
+	};
+	int y, x;
+	cin >> y >> x;
+
+	int sum = 0;
+
+	for (int i = 0; i < 4; i++)
+	{
+		int ny = y + dy[i];
+		int nx = x + dx[i];
+
+		if (ny < 0 || ny >= 3 || nx < 0 || nx >= 3)
+		{
+			continue;
+		}
+		sum = sum + arr[ny][nx];
+	}
+	cout << sum;
+
+	return 0;
+}
