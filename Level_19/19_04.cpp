@@ -1,0 +1,23 @@
+﻿#include <iostream>
+using namespace std;
+
+struct Data
+{
+	int x;
+	int y;
+	int z;
+};
+
+int main1904() {
+	Data a;
+	Data b;
+	
+	cin >> a.x >> a.y >> a.z;
+	cin >> b.x >> b.y >> b.z;
+
+	cout << a.x + b.x << endl;
+	cout << a.y + b.y << endl;
+	cout << a.z + b.z << endl;
+
+	return 0;
+}
